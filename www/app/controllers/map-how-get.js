@@ -45,6 +45,8 @@ app.controller('MapHowGetController', function ($scope, $cordovaGeolocation, $io
 
     self.loadMap = function() {
 
+        console.info('$scope.mapData how',$scope.mapData);
+
         if($scope.mapData.latitude.length > 0)
             $scope.centroLatlng = new google.maps.LatLng($scope.mapData.latitude, $scope.mapData.longitude);
 

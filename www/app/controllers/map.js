@@ -89,7 +89,7 @@ app.controller('MapController', function ($scope, $cordovaGeolocation, $ionicLoa
             scrollwheel: false,
             streetViewControl: false,
             zoomControl: true,
-            zoom: 17,
+            zoom: 16,
             maxZoom: 19,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
@@ -115,28 +115,20 @@ app.controller('MapController', function ($scope, $cordovaGeolocation, $ionicLoa
         }
 
         var imageBounds = {
-            north: 39.276197,
+            north: 39.276415,
             south: 39.271529,
-            east: -2.606828,
-            west: -2.611120
+            east: -2.606603,
+            west: -2.611538
         };
         var overlayOpts = {
             opacity: 1
         };
-        imgOver = new google.maps.GroundOverlay($scope.server_image+'feast/'+$scope.mapData.image, imageBounds, overlayOpts);
+        imgOver = new google.maps.GroundOverlay('img/map/precinct.png', imageBounds, overlayOpts);
         imgOver.setMap(map);
 
         $scope.map = map;
         $scope.directionsDisplay = new google.maps.DirectionsRenderer({polylineOptions: { strokeColor: 'red' }});
 
-        //var image = 'images/beachflag.png';
-        //var beachMarker = new google.maps.Marker({
-        //    position: $scope.centroLatlng,
-        //    map: $scope.map
-        //    //icon: image
-        //});
-        //$scope.map.setZoom(17);
-        //$scope.map.setCenter($scope.centroLatlng);
     };
 
     $scope.showMyLocation = function() {

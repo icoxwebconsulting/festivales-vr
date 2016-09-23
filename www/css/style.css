@@ -9,6 +9,16 @@
 }
 
 @font-face {
+    font-family: 'Roboto-Light';
+    src: url("../lib/ionic/fonts/Roboto-Light.eot");
+    src: url("../lib/ionic/fonts/Roboto-Light.eot")
+    format("embedded-opentype"),
+    url("../lib/ionic/fonts/Roboto-Light.woff") format("woff"),
+    url("../lib/ionic/fonts/Roboto-Light.ttf") format("truetype"),
+    url("../lib/ionic/fonts/Roboto-Light.svg") format("svg");
+}
+
+@font-face {
     font-family: 'UnicaOne-Regular';
     src: url("../lib/ionic/fonts/UnicaOne-Regular.eot");
     src: url("../lib/ionic/fonts/UnicaOne-Regular.eot")
@@ -220,7 +230,7 @@
 
 .sidebar-right .button-clear, .category{
     display: block !important;
-    margin-top: -10px !important;
+    margin-top: -8px !important;
 }
 
 .categories li{
@@ -238,9 +248,10 @@
     margin:10px auto;
     text-align:left;
     color: #ffffff;
-    font-family: Roboto-Black, UnicaOne-Regular  !important;
+    font-family: Roboto-Light, UnicaOne-Regular  !important;
     font-size: 18px;
     text-decoration: none;
+    font-weight: 900;
 }
 
 .category a:hover{
@@ -263,7 +274,7 @@
 .sidebar-right .menu-tabs{
     background: url('../img/menu/subheader.png')!important;
     border: none !important;
-    margin: 0 !important;
+    margin-top: -2px !important;
 }
 
 .sidebar-right .tab-item{
@@ -358,9 +369,8 @@
 .subtitle{
     background: url('../img/menu/subheader.png') !important;
     position: static!important;
-    height: 55px!important;
+    height: 70px!important;
     text-align: center;
-    margin-top: 5px;
 }
 
 .discover .subtitle .col{
@@ -370,7 +380,7 @@
 
 .discover .subtitle .col .center span{
     font-family: UnicaOne-Regular  !important;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     color:#ffffff;
 }
@@ -837,7 +847,7 @@
 
 .login-header{
     width: 100% !important;
-    height: 58px !important;
+    height: 70px !important;
     background: url('../img/menu/subheader.png')!important;
     padding: 0 !important;
     color: #ffffff !important;
@@ -864,9 +874,10 @@
 
 .login-header .btn-action{
     color: #ffffff;
-    font-family:  UnicaOne-Regular!important;
+    font-family:  Roboto-Light!important;
+    font-weight: 500;
     font-size: 25px !important;
-    margin-top: 15px;
+    margin-top: 22px;
     font-weight: lighter;
 }
 
