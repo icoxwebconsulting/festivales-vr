@@ -1,0 +1,18 @@
+<ion-view class="login">
+    <ion-header-bar class="login-header" scroll="false">
+        <div class="row header-tabs" scroll="false">
+            <div class="left" ng-class="{'active': view.show  === 'sign_in'}">
+                <button class="button button-clear btn-action" ng-click="login()">
+                    Entrar
+                </button>
+            </div>
+            <div class="right" ng-class="{'active': view.show  === 'sign_up'}">
+                <button class="button button-clear btn-action" ng-click="register()">
+                    Registrarse
+                </button>
+            </div>
+        </div>
+    </ion-header-bar>
+    <ion-nav-view name="content"></ion-nav-view>
+</ion-view>
+
