@@ -19,39 +19,39 @@
 }
 
 @font-face {
-    font-family: 'UnicaOne-Regular';
-    src: url("../lib/ionic/fonts/UnicaOne-Regular.eot");
-    src: url("../lib/ionic/fonts/UnicaOne-Regular.eot")
+    font-family: 'roboto-regular';
+    src: url("../lib/ionic/fonts/roboto-regular.eot");
+    src: url("../lib/ionic/fonts/roboto-regular.eot")
     format("embedded-opentype"),
-    url("../lib/ionic/fonts/UnicaOne-Regular.woff") format("woff"),
-    url("../lib/ionic/fonts/UnicaOne-Regular.ttf") format("truetype"),
-    url("../lib/ionic/fonts/UnicaOne-Regular.svg") format("svg");
+    url("../lib/ionic/fonts/roboto-regular.woff") format("woff"),
+    url("../lib/ionic/fonts/roboto-regular.ttf") format("truetype"),
+    url("../lib/ionic/fonts/roboto-regular.svg") format("svg");
 }
 
 
 ::-webkit-input-placeholder{
-    font-family:  UnicaOne-Regular!important;
+    font-family:  roboto-regular!important;
     font-size: 18px !important;
     color: #04041B !important;
     opacity: 1 !important;
 }
 
 :-moz-placeholder{
-    font-family:  UnicaOne-Regular!important;
+    font-family:  roboto-regular!important;
     font-size: 18px !important;
     color: #04041B !important;
     opacity: 1 !important;
 }
 
 ::-moz-placeholder{
-    font-family:  UnicaOne-Regular!important;
+    font-family:  roboto-regular!important;
     font-size: 18px !important;
     color: #04041B !important;
     opacity: 1 !important;
 }
 
 :-ms-input-placeholder{
-    font-family:  UnicaOne-Regular!important;
+    font-family:  roboto-regular!important;
     font-size: 18px !important;
     color: #04041B !important;
     opacity: 1 !important;
@@ -155,7 +155,7 @@
 }
 
 .menu{
-    font-family: Roboto-Black, UnicaOne-Regular  !important;
+    font-family: Roboto-Black, roboto-regular  !important;
 }
 
 .menu-left .pane, .poster, .map, .coming-soon{
@@ -248,7 +248,7 @@
     margin:10px auto;
     text-align:left;
     color: #ffffff;
-    font-family: Roboto-Light, UnicaOne-Regular  !important;
+    font-family: Roboto-Light, roboto-regular  !important;
     font-size: 18px;
     text-decoration: none;
     font-weight: 900;
@@ -279,7 +279,7 @@
 
 .sidebar-right .tab-item{
     margin-top: 18px !important;
-    font-family: Roboto-Black, UnicaOne-Regular  !important;
+    font-family: Roboto-Black, roboto-regular  !important;
     color: #ffffff !important;
     font-size: 14px !important;
 }
@@ -326,7 +326,7 @@
     position: inherit;
     padding: 0px 20px;
     text-align: center;
-    font-family: UnicaOne-Regular  !important;
+    font-family: roboto-regular  !important;
 }
 
 .menu-right .list.disable-user-behavior{
@@ -346,7 +346,7 @@
 }
 
 .favorites .list .item .time, .favorites .list .item .stage-name, .notifications .list .item .stage-name, .notifications .list .item .time{
-    font-family: UnicaOne-Regular!important;
+    font-family: roboto-regular!important;
     font-weight: lighter !important;
     font-size: 13px !important;
 }
@@ -379,7 +379,7 @@
 }
 
 .discover .subtitle .col .center span{
-    font-family: UnicaOne-Regular  !important;
+    font-family: roboto-regular  !important;
     font-size: 24px;
     font-weight: 700;
     color:#ffffff;
@@ -536,7 +536,7 @@
 }
 
 .list .artist-name{
-    font-family: Roboto-Black, UnicaOne-Regular  !important;
+    font-family: Roboto-Black, roboto-regular  !important;
     color: #04041B !important;
     font-size: 13px;
 }
@@ -625,7 +625,7 @@
 }
 
 .artist .my-item.item p{
-    font-family: Roboto-Black, UnicaOne-Regular  !important;
+    font-family: Roboto-Black, roboto-regular  !important;
     color: #04041B;
     font-size:14px;
     display: inline-block;
@@ -678,7 +678,7 @@
     margin-left: 5px !important;
     color: #ffffff;
     font-size: 14px;
-    font-family: UnicaOne-Regular !important;
+    font-family: roboto-regular !important;
 }
 
 .artist .list .favorite{
@@ -707,7 +707,7 @@
 
 
 .discover .legend p{
-    font-family: Roboto-Black,UnicaOne-Regular!important;
+    font-family: Roboto-Black,roboto-regular!important;
     font-size: 13px;
     display: inline-block;
     float: left;
@@ -738,7 +738,7 @@
 }
 
 .artist-detail .legend p{
-    font-family: Roboto-Black,UnicaOne-Regular!important;
+    font-family: Roboto-Black,roboto-regular!important;
     font-size: 20px;
     display: inline-block;
     float: left;
@@ -762,7 +762,7 @@
 .artist-detail .body{
     height: auto;
     width: 100%;
-    font-family: UnicaOne-Regular  !important;
+    font-family: roboto-regular  !important;
     color: #04041B;
     background-color: #FED6CF !important;
     position: absolute;
@@ -800,7 +800,7 @@
 }
 
 .artist-detail .body .listen p{
-    font-family: UnicaOne-Regular!important;
+    font-family: roboto-regular!important;
     font-size: 12px;
     display: inline-block;
     font-weight: bold;
@@ -810,7 +810,7 @@
 }
 
 .artist-detail .body .social-title{
-    font-family:  Roboto-Black,UnicaOne-Regular!important;
+    font-family:  Roboto-Black,roboto-regular!important;
     font-size: 18px;
     display: block;
     color: #04041B;
@@ -895,14 +895,14 @@
 
 .login-content .title{
     text-align: center;
-    font-family:  UnicaOne-Regular!important;
+    font-family:  roboto-regular!important;
     margin-top: 40px;
     margin-bottom: 30px;
 }
 
 .login-content .title h4{
     font-size: 30px;
-    font-family:  UnicaOne-Regular!important;
+    font-family:  roboto-regular!important;
 }
 
 .login-content .title span{
@@ -919,7 +919,7 @@
 
 .login-content .options .later{
     text-align: center;
-    font-family:  UnicaOne-Regular!important;
+    font-family:  roboto-regular!important;
     font-weight: bold;
     font-size: 15px;
     margin: 100px 0;
@@ -976,7 +976,7 @@
 
 .login-content .form .later{
     text-align: center;
-    font-family:  UnicaOne-Regular!important;
+    font-family:  roboto-regular!important;
     font-size: 11px;
     margin-top: 5px;
     width: 100%;
@@ -1036,7 +1036,7 @@
     background-color: #FED6CF !important;
     border-color: #F0E0BC !important;
     color:#04041B !important;
-    font-family:  UnicaOne-Regular!important;
+    font-family:  roboto-regular!important;
     height: 40px !important;
     padding: 12px !important;
 }
@@ -1119,7 +1119,7 @@
 
 .footer .button.button-clear{
     font-size: 11px !important;
-    font-family:  UnicaOne-Regular!important;
+    font-family:  roboto-regular!important;
     color: #ffffff !important;
 }
 
@@ -1130,13 +1130,13 @@
 }
 
 .social .filter .button{
-    font-family:  UnicaOne-Regular!important;
+    font-family:  roboto-regular!important;
     font-size: 12px !important;
 }
 
 .info .filters h3{
     color:#ffffff !important;
-    font-family:  Roboto-Black, UnicaOne-Regular!important;
+    font-family:  Roboto-Black, roboto-regular!important;
     vertical-align: middle;
     text-align: center;
     margin: auto;
@@ -1150,7 +1150,7 @@
 }
 
 .info .list .item{
-    font-family:  UnicaOne-Regular!important;
+    font-family:  roboto-regular!important;
     font-size: 16px !important;
     font-weight: 600;
 }
@@ -1162,7 +1162,7 @@
 }
 
 .schedule .stage .list .item-divider p{
-    font-family:  UnicaOne-Regular!important;
+    font-family:  roboto-regular!important;
     font-size: 14px !important;
     color: #ffffff;
     padding: 5px;
@@ -1227,7 +1227,7 @@
 
 .modal-player .track-name, .modal-player .track-duration, .modal-player .artist-name  {
     color: #ffffff !important;
-    font-family:  UnicaOne-Regular!important;
+    font-family:  roboto-regular!important;
     font-size: 14px !important;
 }
 
@@ -1323,7 +1323,7 @@
 }
 
 .sponsor h3, .weather h3{
-    font-family: Roboto-Black, UnicaOne-Regular!important;
+    font-family: Roboto-Black, roboto-regular!important;
     font-weight: lighter !important;
     color: #ffffff;
     text-align: center;
@@ -1399,19 +1399,19 @@
 }
 
 .weather .time{
-    font-family: UnicaOne-Regular!important;
+    font-family: roboto-regular!important;
     color: #04041B;
     font-size: 14px;
 }
 
 .weather .condition-name{
-    font-family: Roboto-Black, UnicaOne-Regular!important;
+    font-family: Roboto-Black, roboto-regular!important;
     color: #04041B;
     font-size: 18px;
 }
 
 .weather .temperature{
-    font-family: Roboto-Black, UnicaOne-Regular!important;
+    font-family: Roboto-Black, roboto-regular!important;
     color: #04041B;
     font-size: 20px;
 }
