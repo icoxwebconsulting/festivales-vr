@@ -336,6 +336,30 @@ app.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
                 }
             }
         })
+        .state('menu.streaming', {
+            url: 'streaming',
+            views: {
+                'content': {
+                    templateUrl: 'templates/streaming/main.html',
+                    controller: 'StreamingController',
+                    resolve: {
+                        data: function ($ionicPlatform, $cordovaGoogleAnalytics) {
+                            function _waitForAnalytics(){
+                                if(typeof analytics !== 'undefined'){
+                                    $cordovaGoogleAnalytics.trackView('Streaming list screen');
+                                }
+                                else{
+                                    setTimeout(function(){
+                                        _waitForAnalytics();
+                                    },250);
+                                }
+                            }
+                            _waitForAnalytics();
+                        }
+                    }
+                }
+            }
+        })
         .state('menu.info', {
             url: 'info',
             views: {
