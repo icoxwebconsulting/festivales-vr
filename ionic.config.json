@@ -1,6 +1,6 @@
 {
-  "name": "Viña Rock",
-  "app_id": "com.gravedad.vinarock",
+  "name": "Viña Rock 2017 Oficial",
+  "app_id": "com.gravedad.vinarock2017",
   "gulpStartupTasks": [
     "default",
     "watch"

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.gravedad.vinarock" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-  <name>Viña Rock</name>
+<widget id="com.gravedad.vinarock2017" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+  <name>Viña Rock 2017 Oficial</name>
   <description>
-        Viña Rock
+    Viña Rock 2017 Oficial
     </description>
   <author email="sanchez91nestor@gmail.com" href="">
       Nestor Sanchez
