@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.gravedad.vinarock" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.gravedad.vinarock" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
   <name>Vina Rock</name>
   <description>
     Viña Rock 2017 Oficial
@@ -59,7 +59,7 @@
     <splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
     <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
-  <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
+  <icon src="resources/ios/icon/icon-small@3x.png"/>
   <allow-navigation href="https://*/*"/>
   <allow-navigation href="data:*"/>
   <plugin name="cordova-plugin-facebook4" spec="~1.7.1">
