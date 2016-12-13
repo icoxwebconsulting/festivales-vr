@@ -15,7 +15,7 @@ app.constant('GLOBAL', {
         'country_iso': 'ES',
         'user_id': '116089594',
         'client_id': '94bb263183d143ed9d0bea3397f264cf',
-        'playlist_id': '3vsvh15C5NYUXLjBazAVh3'
+        'playlist_id': '1WacouuToRBMhBlVUVbnzT'
     },
     'facebook':{
         'api_version': 'v2.5',
