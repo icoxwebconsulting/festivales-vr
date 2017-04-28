@@ -97,7 +97,6 @@ app.run(function ($rootScope, $state, $stateParams, $ionicPlatform, $ionicHistor
 
 
         if (!UserService.isLogged()) {
-            $state.go('base.login');
             console.info('redirect login');
         }else
             UserService.registerNotifications();
